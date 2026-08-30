@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact — TerraCorp</title>
+  <meta name="description" content="Get in touch with TerraCorp for corporate agriculture and landscaping consultations, quotes, and partnerships.">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header class="header">
+    <div class="container header__inner">
+      <a href="index.html" class="header__brand">
+        <span class="header__brand-icon">&#9672;</span>
+        TERRACORP
+      </a>
+      <nav class="header__nav">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="services.html">Services</a>
+        <a href="contact.html" class="active">Contact</a>
+      </nav>
+      <div class="header__actions">
+        <a href="contact.html" class="btn btn--primary">Get a Quote</a>
+      </div>
+      <div class="burger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </div>
+    </div>
+  </header>
+
+  <!-- PAGE HERO -->
+  <section class="page-hero">
+    <div class="page-hero__bg">
+      <img src="assets/img/carousel-1.jpg" alt="Contact TerraCorp">
+    </div>
+    <div class="page-hero__overlay"></div>
+    <div class="page-hero__content">
+      <h1>Contact Us</h1>
+      <p>We'd love to hear from you. Let's start a conversation.</p>
+      <div class="breadcrumb">
+        <a href="index.html">Home</a> / <span>Contact</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT SECTION -->
+  <section class="section">
+    <div class="container">
+      <div class="contact__grid">
+        <!-- Left: Info -->
+        <div class="reveal-left">
+          <h2 style="font-size: 1.8rem; margin-bottom: 12px;">Get in Touch</h2>
+          <p style="color: var(--dark-500); margin-bottom: 32px; line-height: 1.7;">Have a project in mind or want to learn more about our services? Reach out using the form or any of the methods below. Our team typically responds within 24 hours.</p>
+
+          <div class="contact__info-card">
+            <div class="contact__info-icon">&#128205;</div>
+            <div>
+              <div class="contact__info-label">Office Address</div>
+              <div class="contact__info-value">142 Greenfield Ave, Suite 300<br>Portland, OR 97201</div>
+            </div>
+          </div>
+          <div class="contact__info-card">
+            <div class="contact__info-icon">&#128222;</div>
+            <div>
+              <div class="contact__info-label">Phone</div>
+              <div class="contact__info-value">(503) 555-0182</div>
+            </div>
+          </div>
+          <div class="contact__info-card">
+            <div class="contact__info-icon">&#9993;</div>
+            <div>
+              <div class="contact__info-label">Email</div>
+              <div class="contact__info-value">hello@terracorp.com</div>
+            </div>
+          </div>
+          <div class="contact__info-card">
+            <div class="contact__info-icon">&#128336;</div>
+            <div>
+              <div class="contact__info-label">Business Hours</div>
+              <div class="contact__info-value">Mon – Fri: 8:00 AM – 6:00 PM<br>Sat: 9:00 AM – 1:00 PM</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right: Form -->
+        <div class="reveal-right">
+          <form class="contact-form" data-form="contact">
+            <div class="contact-form__row">
+              <div class="form-group">
+                <label for="firstName">First Name *</label>
+                <input type="text" id="firstName" name="firstName" placeholder="John" required>
+              </div>
+              <div class="form-group">
+                <label for="lastName">Last Name *</label>
+                <input type="text" id="lastName" name="lastName" placeholder="Doe" required>
+              </div>
+            </div>
+            <div class="contact-form__row">
+              <div class="form-group">
+                <label for="email">Email *</label>
+                <input type="email" id="email" name="email" placeholder="john@company.com" required>
+              </div>
+              <div class="form-group">
+                <label for="phone">Phone</label>
+                <input type="tel" id="phone" name="phone" placeholder="(555) 000-0000">
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="service">Service Interest</label>
+              <select id="service" name="service">
+                <option value="">Select a service...</option>
+                <option value="landscaping">Landscaping Design</option>
+                <option value="agriculture">Agriculture Solutions</option>
+                <option value="consultation">Expert Consultation</option>
+                <option value="maintenance">Ongoing Maintenance</option>
+                <option value="other">Other</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="message">Message *</label>
+              <textarea id="message" name="message" placeholder="Tell us about your project or question..." required></textarea>
+            </div>
+            <button type="submit" class="btn btn--primary">Send Message</button>
+          </form>
+        </div>
+      </div>
+
+      <!-- Map Placeholder -->
+      <div class="map-placeholder reveal">
+        <span>&#128506; Map placeholder — embed your Google Map or Mapbox iframe here</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA BANNER -->
+  <section class="cta-banner">
+    <div class="container reveal">
+      <h2>Prefer to Talk Directly?</h2>
+      <p>Call us at (503) 555-0182 and speak with a TerraCorp consultant today.</p>
+      <a href="tel:+15035550182" class="btn btn--outline">Call Now</a>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__grid">
+        <div>
+          <div class="footer__brand">
+            <span class="footer__brand-icon">&#9672;</span>
+            TERRACORP
+          </div>
+          <p class="footer__desc">Corporate agriculture and landscaping solutions. Growing tomorrow's landscape with sustainable innovation and expert craftsmanship.</p>
+          <div class="footer__socials">
+            <a href="#" aria-label="Facebook">&#9679;</a>
+            <a href="#" aria-label="Twitter">&#9679;</a>
+            <a href="#" aria-label="Instagram">&#9679;</a>
+            <a href="#" aria-label="LinkedIn">&#9679;</a>
+          </div>
+        </div>
+        <div>
+          <h4 class="footer__heading">Quick Links</h4>
+          <ul class="footer__links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="footer__heading">Services</h4>
+          <ul class="footer__links">
+            <li><a href="services.html">Landscaping Design</a></li>
+            <li><a href="services.html">Agriculture Solutions</a></li>
+            <li><a href="services.html">Consultation</a></li>
+            <li><a href="services.html">Maintenance</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="footer__heading">Newsletter</h4>
+          <p class="footer__newsletter-text">Stay updated on our latest projects, sustainability tips, and industry news.</p>
+          <form class="footer__newsletter-form">
+            <input type="email" placeholder="Your email address" required>
+            <button type="submit">Subscribe</button>
+          </form>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <span>&copy; 2026 TerraCorp. All rights reserved.</span>
+        <div class="footer__bottom-links">
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms of Service</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- SCROLL TO TOP -->
+  <button class="scroll-top" aria-label="Scroll to top">&#9650;</button>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
